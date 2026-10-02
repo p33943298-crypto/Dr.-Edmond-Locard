@@ -21,7 +21,7 @@ async def internal_server_error_handler(request: Request, exc):
     return HTMLResponse(content="<h1>500 - Internal Server Error</h1><p>An unexpected error occurred.</p>", status_code=500)
 
 
-@app.get("/locard", response_class=HTMLResponse)
+@app.get("/", response_class=HTMLResponse)
 def pagina_locard():
     return """
     <!DOCTYPE html>
