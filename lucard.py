@@ -309,7 +309,7 @@ def pagina_locard():
                 </div>
             </section>
 
-            <!-- GALERÍA DE 20 MÉTODOS Y BUSCADOR INTERACTIVO (TODAS LAS IMÁGENES DIVERSAS CON EL DR. LOCARD) -->
+            <!-- GALERÍA DE 20 MÉTODOS Y BUSCADOR INTERACTIVO -->
             <section class="mb-5">
                 <div class="d-flex justify-content-between align-items-center flex-wrap mb-4">
                     <h2 class="text-warning font-heading mb-2 mb-md-0"><i class="fa-solid fa-microscope me-2"></i>20 Forensic Methods & Investigations</h2>
@@ -551,7 +551,6 @@ def pagina_locard():
                     <div class="mb-3">
                         <label class="form-label text-info">Select a crime scene context:</label>
                         <select id="tipoEscena" class="form-select bg-dark text-white border-secondary">
-                            <!-- 35 OPCIONES -->
                             <option value="1">1. Room struggle with carpet and dust</option>
                             <option value="2">2. Firearm discharge in a closed room</option>
                             <option value="3">3. Handling questioned anonymous documents</option>
@@ -595,78 +594,148 @@ def pagina_locard():
                 </div>
             </section>
 
-            <!-- 10 POSTS EDITADOS Y REEMPLAZADOS SEGÚN LA GUÍA (POSTS 1 AL 10) -->
+            <!-- 20 POSTS COMPLETOS BASADOS EN LAS INSTRUCCIONES DE LA GUÍA -->
             <section class="mb-5">
-                <h2 class="text-warning font-heading mb-4"><i class="fa-solid fa-comments me-2"></i>10 Academic Posts on Dr. Edmond Locard</h2>
+                <h2 class="text-warning font-heading mb-4"><i class="fa-solid fa-comments me-2"></i>20 Academic Profile Posts for Dr. Edmond Locard</h2>
                 <div class="row g-4">
-                    <!-- Post 1: Introduction of the character, birth place, and date -->
+                    <!-- Post 1 -->
                     <div class="col-md-6">
                         <div class="post-card">
                             <div class="post-header"><i class="fa-solid fa-user me-2"></i><strong>Post 1: Introduction, Birth Place & Date</strong></div>
-                            <p class="text-light small mb-0">Dr. Edmond Locard was born on December 13, 1877, in Saint-Chamond, France. As a fundamental pioneer in criminology and forensic science, he devoted his life to transforming criminal investigation into an objective science. His early life in France laid the cornerstone for modern forensic techniques worldwide.</p>
+                            <p class="text-light small mb-0">Dr. Edmond Locard was born on December 13, 1877, in Saint-Chamond, France. As a fundamental pioneer in criminology and forensic science, he devoted his life to transforming criminal investigation into an objective science.</p>
                         </div>
                     </div>
-                    <!-- Post 2: Early signs of their predominant intelligence type -->
+                    <!-- Post 2 -->
                     <div class="col-md-6">
                         <div class="post-card">
                             <div class="post-header"><i class="fa-solid fa-brain me-2"></i><strong>Post 2: Early Signs of Intelligence Type</strong></div>
-                            <p class="text-light small mb-0">From an early age, Locard demonstrated exceptional logical-mathematical and analytical intelligence. He showed a remarkable ability to observe subtle natural phenomena, systematically question assumptions, and connect disparate physical evidence, showing early signs of the brilliant scientific mind that would later revolutionize physical trace evaluation in crime laboratories.</p>
+                            <p class="text-light small mb-0">From an early age, Locard demonstrated exceptional logical-mathematical intelligence, showing a remarkable ability to observe subtle natural phenomena and connect disparate physical evidence logically.</p>
                         </div>
                     </div>
-                    <!-- Post 3: Primary motivations and initial vocational interests -->
+                    <!-- Post 3 -->
                     <div class="col-md-6">
                         <div class="post-card">
                             <div class="post-header"><i class="fa-solid fa-compass me-2"></i><strong>Post 3: Primary Motivations & Vocational Interests</strong></div>
-                            <p class="text-light small mb-0">Locard's primary motivation was replacing unreliable subjective testimony with unyielding scientific truth. Initially passionate about both medicine and law, his vocational interests focused on applying empirical principles to solve complex human mysteries, driven by a deep desire to ensure judicial justice through undeniable physical evidence.</p>
+                            <p class="text-light small mb-0">Locard's primary motivation was replacing unreliable subjective testimony with unyielding scientific truth, driven by a deep desire to ensure judicial justice through undeniable physical evidence.</p>
                         </div>
                     </div>
-                    <!-- Post 4: First exposure to their area of study -->
+                    <!-- Post 4 -->
                     <div class="col-md-6">
                         <div class="post-card">
                             <div class="post-header"><i class="fa-solid fa-microscope me-2"></i><strong>Post 4: First Exposure to Forensic Study</strong></div>
-                            <p class="text-light small mb-0">His first exposure to criminalistics occurred during his university years in Lyon. While studying under early pioneers of legal medicine, Locard recognized that police investigations lacked rigorous scientific methodologies, inspiring him to pioneer microscopic trace analysis and establish crime scene science as an independent discipline.</p>
+                            <p class="text-light small mb-0">His first exposure to criminalistics occurred during his university years in Lyon, where he recognized that police investigations lacked rigorous scientific methodologies.</p>
                         </div>
                     </div>
-                    <!-- Post 5: Entrance into higher education or professional training -->
+                    <!-- Post 5 -->
                     <div class="col-md-6">
                         <div class="post-card">
                             <div class="post-header"><i class="fa-solid fa-graduation-cap me-2"></i><strong>Post 5: Entrance into Higher Education</strong></div>
-                            <p class="text-light small mb-0">Locard entered higher education at the prestigious University of Lyon, completing rigorous professional training in both Medicine and Law. This dual academic background equipped him with comprehensive clinical understanding and sharp legal insight, forming the ideal foundation for his revolutionary career in scientific criminal investigation.</p>
+                            <p class="text-light small mb-0">Locard entered the University of Lyon, completing rigorous professional training in both Medicine and Law, equipping him with clinical insight and legal expertise.</p>
                         </div>
                     </div>
-                    <!-- Post 6: Key mentors or figures who influenced their career path -->
+                    <!-- Post 6 -->
                     <div class="col-md-6">
                         <div class="post-card">
                             <div class="post-header"><i class="fa-solid fa-people-arrows me-2"></i><strong>Post 6: Key Mentors & Career Influences</strong></div>
-                            <p class="text-light small mb-0">Professor Alexandre Lacassagne, a world-renowned pioneer in criminal anthropology, served as Locard’s primary mentor. Additionally, Arthur Conan Doyle’s fictional detective Sherlock Holmes deeply influenced Locard, inspiring him to turn fictional deduction techniques into practical, real-world forensic laboratory protocols.</p>
+                            <p class="text-light small mb-0">Professor Alexandre Lacassagne served as his primary mentor, while Arthur Conan Doyle's fictional detective Sherlock Holmes inspired his real-world investigative focus.</p>
                         </div>
                     </div>
-                    <!-- Post 7: Graduate profile description and main skills developed -->
+                    <!-- Post 7 -->
                     <div class="col-md-6">
                         <div class="post-card">
                             <div class="post-header"><i class="fa-solid fa-award me-2"></i><strong>Post 7: Graduate Profile & Key Skills</strong></div>
-                            <p class="text-light small mb-0">Upon completing his studies, Locard emerged as a versatile medico-legal expert. He developed advanced skills in microscopic dust analysis, chemical testing, document examination, and meticulous observation, embodying a graduate profile capable of bridging complex biological science with courtroom legal standards.</p>
+                            <p class="text-light small mb-0">He developed advanced skills in microscopic dust analysis, chemical testing, document examination, and meticulous observation, bridging biological science with legal standards.</p>
                         </div>
                     </div>
-                    <!-- Post 8: First official job or independent research project -->
+                    <!-- Post 8 -->
                     <div class="col-md-6">
                         <div class="post-card">
                             <div class="post-header"><i class="fa-solid fa-briefcase me-2"></i><strong>Post 8: First Official Job & Research Project</strong></div>
-                            <p class="text-light small mb-0">In 1910, Locard established his first official police laboratory in two dusty attic rooms at the Palais de Justice in Lyon. Armed with basic borrowed instruments, his initial independent research focused on analyzing fingernail dust and micro-fibers, quickly proving the immense value of crime laboratories.</p>
+                            <p class="text-light small mb-0">In 1910, Locard established the first police crime lab in two attic rooms in Lyon, focusing his initial research on fingernail dust analysis and micro-fibers.</p>
                         </div>
                     </div>
-                    <!-- Post 9: Their most famous invention, publication, or contribution -->
+                    <!-- Post 9 -->
                     <div class="col-md-6">
                         <div class="post-card">
                             <div class="post-header"><i class="fa-solid fa-book me-2"></i><strong>Post 9: Major Contribution & Publication</strong></div>
-                            <p class="text-light small mb-0">Locard’s most famous contribution is the Exchange Principle ("Every contact leaves a trace"). He also invented poroscopy and published the monumental seven-volume "Traité de Criminalistique", which served as the authoritative global manual for scientific crime scene investigation and forensic methodology.</p>
+                            <p class="text-light small mb-0">His most famous contribution is the Exchange Principle ("Every contact leaves a trace"), alongside inventing poroscopy and writing the monumental "Traité de Criminalistique".</p>
                         </div>
                     </div>
-                    <!-- Post 10: Awards, international recognition, or milestones -->
+                    <!-- Post 10 -->
                     <div class="col-md-6">
                         <div class="post-card">
                             <div class="post-header"><i class="fa-solid fa-trophy me-2"></i><strong>Post 10: Recognition & Historical Milestones</strong></div>
-                            <p class="text-light small mb-0">Earned the nickname "The Sherlock Holmes of France," Dr. Locard received widespread international acclaim from police departments across Europe and America. His founding of the Lyon Crime Laboratory stands as a historic landmark, permanently shaping modern international police science and forensic academies.</p>
+                            <p class="text-light small mb-0">Known as "The Sherlock Holmes of France", Locard received worldwide acclaim, permanently establishing international forensic science academies and crime laboratories.</p>
+                        </div>
+                    </div>
+                    <!-- Post 11 -->
+                    <div class="col-md-6">
+                        <div class="post-card">
+                            <div class="post-header"><i class="fa-solid fa-quote-left me-2"></i><strong>Post 11: Famous Quote</strong></div>
+                            <p class="text-light small mb-0">"Tout contact laisse une trace" (Every contact leaves a trace)—Locard's legendary quote encapsulates the core axiom governing all modern physical evidence recovery.</p>
+                        </div>
+                    </div>
+                    <!-- Post 12 -->
+                    <div class="col-md-6">
+                        <div class="post-card">
+                            <div class="post-header"><i class="fa-solid fa-shuffle me-2"></i><strong>Post 12: Transformation of the Field</strong></div>
+                            <p class="text-light small mb-0">Locard transformed criminology from a speculative art into an empirical science, proving that silent physical evidence speaks louder than coerced confessions.</p>
+                        </div>
+                    </div>
+                    <!-- Post 13 -->
+                    <div class="col-md-6">
+                        <div class="post-card">
+                            <div class="post-header"><i class="fa-solid fa-triangle-exclamation me-2"></i><strong>Post 13: Major Career Obstacle</strong></div>
+                            <p class="text-light small mb-0">Locard faced severe initial skepticism and budget resistance from conservative police authorities who preferred traditional, subjective interrogation methods over microscopy.</p>
+                        </div>
+                    </div>
+                    <!-- Post 14 -->
+                    <div class="col-md-6">
+                        <div class="post-card">
+                            <div class="post-header"><i class="fa-solid fa-code-branch me-2"></i><strong>Post 14: Third Conditional Analysis</strong></div>
+                            <p class="text-light small mb-0">If Locard hadn't persevered against bureaucratic rejection in Lyon, modern forensic laboratories would not have emerged as early as 1910, delaying scientific crime solving globally.</p>
+                        </div>
+                    </div>
+                    <!-- Post 15 -->
+                    <div class="col-md-6">
+                        <div class="post-card">
+                            <div class="post-header"><i class="fa-solid fa-clock-rotate-left me-2"></i><strong>Post 15: Hypothetical Past Decision</strong></div>
+                            <p class="text-light small mb-0">If Locard had chosen exclusively to practice medicine instead of combining it with law, he might never have created the universal framework for forensic jurisprudence.</p>
+                        </div>
+                    </div>
+                    <!-- Post 16 -->
+                    <div class="col-md-6">
+                        <div class="post-card">
+                            <div class="post-header"><i class="fa-solid fa-shield-halved me-2"></i><strong>Post 16: Overcoming Adversity</strong></div>
+                            <p class="text-light small mb-0">He overcame institutional resistance by proving his methods through undeniable casework success, turning a tiny, dusty attic into a world-renowned scientific institution.</p>
+                        </div>
+                    </div>
+                    <!-- Post 17 -->
+                    <div class="col-md-6">
+                        <div class="post-card">
+                            <div class="post-header"><i class="fa-solid fa-laptop-code me-2"></i><strong>Post 17: Connection with Modern Technology</strong></div>
+                            <p class="text-light small mb-0">Locard's exchange principle forms the foundational logic behind today's advanced digital forensics, DNA profiling, mass spectrometry, and automated fingerprint identification.</p>
+                        </div>
+                    </div>
+                    <!-- Post 18 -->
+                    <div class="col-md-6">
+                        <div class="post-card">
+                            <div class="post-header"><i class="fa-solid fa-graduation-cap me-2"></i><strong>Post 18: Advice for 11th Grade Students</strong></div>
+                            <p class="text-light small mb-0">"Never stop questioning assumptions, remain passionately curious, and always let objective data guide your conclusions rather than preconceived biases."</p>
+                        </div>
+                    </div>
+                    <!-- Post 19 -->
+                    <div class="col-md-6">
+                        <div class="post-card">
+                            <div class="post-header"><i class="fa-solid fa-image me-2"></i><strong>Post 19: Lasting Professional Legacy</strong></div>
+                            <p class="text-light small mb-0">His enduring legacy lives on in every crime lab worldwide, reminding investigators that every action leaves a microscopic signature waiting to be discovered.</p>
+                        </div>
+                    </div>
+                    <!-- Post 20 -->
+                    <div class="col-md-6">
+                        <div class="post-card">
+                            <div class="post-header"><i class="fa-solid fa-shield-cat me-2"></i><strong>Post 20: Closing Message on Digital Responsibility</strong></div>
+                            <p class="text-light small mb-0">Just as physical contact leaves physical traces, our digital actions leave permanent footprints. We must exercise ethics, truth, and responsibility in the digital age.</p>
                         </div>
                     </div>
                 </div>
@@ -684,11 +753,9 @@ def pagina_locard():
 
         <!-- SCRIPT PARA EL BUSCADOR Y EL SIMULADOR DE 35 CASOS -->
         <script>
-            // 1. Lógica del buscador en tiempo real
             document.getElementById('buscadorMetodos').addEventListener('keyup', function() {
                 let filtro = this.value.toLowerCase();
                 let tarjetas = document.querySelectorAll('#contenedorMetodos > div');
-                
                 tarjetas.forEach(function(card) {
                     let texto = card.textContent.toLowerCase();
                     if (texto.includes(filtro)) {
@@ -699,7 +766,6 @@ def pagina_locard():
                 });
             });
 
-            // 2. Lógica del simulador interactivo ampliado a 35 escenarios
             function analizarEvidencia() {
                 let val = document.getElementById('tipoEscena').value;
                 let salida = document.getElementById('resultadoLocard');
@@ -757,6 +823,6 @@ def obtener_metodos():
         "principio_fundamental": "Tout contact laisse une trace (Every contact leaves a trace)",
         "total_metodos": 20,
         "simulador_escenarios": 35,
-        "posts_admiracion": 10,
+        "posts_admiracion": 20,
         "estado": "Activo y funcionando"
     }
